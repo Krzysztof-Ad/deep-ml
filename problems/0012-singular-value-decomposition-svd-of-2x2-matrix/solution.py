@@ -1,7 +1,7 @@
 import numpy as np 
 def svd_2x2_singular_values(A: np.ndarray) -> tuple:
     B = A.T @ A
-    theta = np.pi / 4 if B[0,0] == B[1,1] else 0.5 * np.arctan2(2 * B[0,1], (B[0,0] - B[1,1]))
+    theta = 0.5 * np.arctan2(2 * B[0,1], (B[0,0] - B[1,1]))
     R = np.array([[np.cos(theta), -np.sin(theta)], [np.sin(theta), np.cos(theta)]])
     D = R.T @ B @ R
     eigenvalues = np.diag(D)
