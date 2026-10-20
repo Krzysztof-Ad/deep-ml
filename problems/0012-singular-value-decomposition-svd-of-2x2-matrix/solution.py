@@ -5,7 +5,7 @@ def svd_2x2_singular_values(A: np.ndarray) -> tuple:
     R = np.array([[np.cos(theta), -np.sin(theta)], [np.sin(theta), np.cos(theta)]])
     D = R.T @ B @ R
     eigenvalues = np.diag(D)
-    singular_values = np.sqrt(eigenvalues)
+    singular_values = np.sqrt(np.maximum(eigenvalues, 0))
     E = np.diag(1 / singular_values)
     V = R
     U = A @ V @ E
