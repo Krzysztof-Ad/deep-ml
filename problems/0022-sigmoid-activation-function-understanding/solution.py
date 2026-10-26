@@ -1,5 +1,4 @@
 import math
 
 def sigmoid(z: float) -> float:
-	result = 1 / (1 + math.exp(-z))
-	return result
+	return 1 / (1 + math.exp(-z))
