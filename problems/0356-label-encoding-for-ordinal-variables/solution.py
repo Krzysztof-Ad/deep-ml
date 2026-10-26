@@ -13,7 +13,6 @@ def label_encode_ordinal(values: list, order: list) -> list:
     result = []
 
     for value in values:
-        idx = -1
         try:
             idx = order.index(value)
         except ValueError:
