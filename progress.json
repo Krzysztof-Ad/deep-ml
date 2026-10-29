@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T22:46:19.214Z",
+  "generated_at": "2026-10-29T19:44:06.049Z",
   "items": {
     "problem:2": {
       "kind": "problem",
@@ -312,6 +312,19 @@
       "last_pushed_at": "2026-10-26T22:46:18.392Z",
       "language": "python",
       "lines": 21
+    },
+    "problem:183": {
+      "kind": "problem",
+      "id": "183",
+      "title": "Calculate Portfolio Variance",
+      "difficulty": "easy",
+      "category": "Financial Engineering",
+      "url": "https://www.deep-ml.com/problems/183",
+      "path": "problems/0183-calculate-portfolio-variance",
+      "first_solved_at": "2026-10-29T19:44:05.362Z",
+      "last_pushed_at": "2026-10-29T19:44:05.362Z",
+      "language": "python",
+      "lines": 18
     }
   }
 }
