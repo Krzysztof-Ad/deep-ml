@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**37** solved · 37 problems · 0 labs · 0 math
+**38** solved · 38 problems · 0 labs · 0 math
 
 ![Coverage](./coverage.svg)
 
@@ -31,6 +31,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Matrix Determinant & Trace](https://www.deep-ml.com/problems/195) | easy | 2026-10-29 | [solution](problems/0195-matrix-determinant-trace) |
 | [Matrix-Vector Dot Product](https://www.deep-ml.com/problems/1) | easy | 2026-10-15 | [solution](problems/0001-matrix-vector-dot-product) |
 | [Min-Max Scaling of Feature Values](https://www.deep-ml.com/problems/112) | easy | 2026-10-26 | [solution](problems/0112-min-max-scaling-of-feature-values) |
+| [One-Hot Encoding of Nominal Values](https://www.deep-ml.com/problems/34) | easy | 2026-11-01 | [solution](problems/0034-one-hot-encoding-of-nominal-values) |
 | [Phi Transformation for Polynomial Features](https://www.deep-ml.com/problems/84) | easy | 2026-10-29 | [solution](problems/0084-phi-transformation-for-polynomial-features) |
 | [Random Shuffle of Dataset](https://www.deep-ml.com/problems/29) | easy | 2026-10-26 | [solution](problems/0029-random-shuffle-of-dataset) |
 | [Reshape Matrix](https://www.deep-ml.com/problems/3) | easy | 2026-10-15 | [solution](problems/0003-reshape-matrix) |
